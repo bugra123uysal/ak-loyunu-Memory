@@ -1,45 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akılda tut</title>
+    <link rel="stylesheet" href="akıl.css">
+</head>
+<body>
+  
+
+  <div id="bşlk">
+ <ul >
+    <li >
+        <a id="baş" href="sayılar bölümü.html">sayılar</a>
+     </li>
+ </ul>
+
+ <ul>
+    <li>
+        <a  id="baş" href="harfler bölümü.html">harfler </a>
+    </li>
+ </ul>
+
+ 
+
+  </div>
+
+  
+ 
+   
+  
 
 
-a{
-    text-decoration: none;
-  color: black;
-
-    
-}
-
-button{
-    position: relative;
-
-}
-
-
-
-
-/* harfler */
-
-div{
-    position: relative;
-    top: 200px;
-    left: 500px;
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
-    text-align: center;
-    border: solid 1px blue;
-    float: left;
-    
-    
-}
-
-textarea{
-    position: relative;
-    top: 400px;
-    left: 500px;
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
-    text-align: center;
-    border: solid 1px blue;
-    float: left;
-    resize: none;
-}
+</body>
+</html>
