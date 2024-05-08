@@ -59,26 +59,43 @@ var f=alphabet[(Math.floor(Math.random()*alphabet.length))]
         var  ee= document.getElementById("ee").style.display="block"
         var  ff= document.getElementById("ff").style.display="block"
                
-            },10000);
-            
+            },9000);
+        }      
 
     /* cevap */
 
-   var  aa= document.getElementById("aa").value;
-   var  bb= document.getElementById("bb").value;
-   var  cc= document.getElementById("cc").value;
-   var  dd= document.getElementById("dd").value;
-   var  ee= document.getElementById("ee").value;
-   var  ff= document.getElementById("ff").value;
-function cvpp(){
-  
+   
+   /* cevap kontrol */
+ 
+   function cvpp(){
+
+    var göör= document.getElementById("gör");
+    var  a= document.getElementById("a").value;
+    var  b= document.getElementById("b").value;
+    var  c= document.getElementById("c").value;
+    var  d= document.getElementById("d").value;
+    var  e= document.getElementById("e").value;
+    var  f= document.getElementById("f").value;
+   
+     var aa= document.getElementById("aa").value;
+     var bb= document.getElementById("bb").value;
+     var cc= document.getElementById("cc").value;
+     var dd= document.getElementById("dd").value;
+     var ee= document.getElementById("ee").value;
+     var ff= document.getElementById("ff").value;
+ 
+     if( a===aa && b===bb && c===cc && d===dd && e===ee && f===ff){
+     alert('tebrikler')
+     
+     }else{
+     alert('tekrar deneyin')
+        
+   
+     }
+
+
+   }
 
 
 
 
-
-
-}
-
-
-}
