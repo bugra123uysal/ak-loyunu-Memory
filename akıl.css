@@ -43,11 +43,13 @@ ul{
 
 
 /* harfler */
-
-div{
+/*
+#a, #b , #c, #d, #e, #f 
+ */
+ textarea {
     position: relative;
     top: 200px;
-    left: 500px;
+    left: 550px;
     height: 30px;
     width: 30px;
     margin-left: 10px;
@@ -57,10 +59,10 @@ div{
     
 }
 
-textarea{
+#aa, #bb , #cc, #dd, #ee, #ff{
     position: relative;
     top: 400px;
-    left: 500px;
+    left: 290px;
     height: 30px;
     width: 30px;
     margin-left: 10px;
