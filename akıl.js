@@ -1,20 +1,109 @@
 
-/* sayılar
+/* sayılar */
+
+/* başla button */
+function alşab(){
+  
+
+   
+    document.getElementById("bır").innerHTML=Math.floor(Math.random()*10*1);
+    document.getElementById("ıkı").innerHTML=Math.floor(Math.random()*10*1);
+    document.getElementById("uc").innerHTML=Math.floor(Math.random()*10*1);
+    document.getElementById("dort").innerHTML=Math.floor(Math.random()*10*1);
+    document.getElementById("bes").innerHTML=Math.floor(Math.random()*10*1);
+    document.getElementById("altı").innerHTML=Math.floor(Math.random()*10*1);
 
 
-var sy=Math.floor(Math.random() *10)+1
-
-    document.getElementById("ssa").innerHTML=sy
 
 
+    var bırr=document.getElementById("bırr").style.display="none"
+    var ıkıı=document.getElementById("ıkıı").style.display="none"
+    var ucc=document.getElementById("ucc").style.display="none"
+    var dortt=document.getElementById("dortt").style.display="none"
+    var bess=document.getElementById("bess").style.display="none"
+    var altıı=document.getElementById("altıı").style.display="none"
 
+var bır=document.getElementById("bır").value;
+var ıkı=document.getElementById("ıkı").value;
+var uc=document.getElementById("uc").value;
+var dort=document.getElementById("dort").value;
+var bes=document.getElementById("bes").value;
+var altı=document.getElementById("altı").value;    
+
+setTimeout (function () {
+    var bır=document.getElementById("bır").style.display="none"
+var ıkı=document.getElementById("ıkı").style.display="none"
+var uc=document.getElementById("uc").style.display="none"
+var dort=document.getElementById("dort").style.display="none"
+var bes=document.getElementById("bes").style.display="none"
+var altı=document.getElementById("altı").style.display="none"
+
+var bırr=document.getElementById("bırr").style.display="block"
+var ıkıı=document.getElementById("ıkıı").style.display="block"
+var ucc=document.getElementById("ucc").style.display="block"
+var dortt=document.getElementById("dortt").style.display="block"
+var bess=document.getElementById("bess").style.display="block"
+var altıı=document.getElementById("altıı").style.display="block"
+
+
+},6000);
     
-*/
+
+}
+
+
+
+/* bittir button */
+
+
+   
+function ritib(){
+/* sayıların gözükeceği yer  */
+
+var bır=document.getElementById("bır").value;
+var ıkı=document.getElementById("ıkı").value;
+var uc=document.getElementById("uc").value;
+var dort=document.getElementById("dort").value;
+var bes=document.getElementById("bes").value;
+var altı=document.getElementById("altı").value;    
+
+
+
+/* cevaplar */
+var bırr=document.getElementById("bırr").value;
+var ıkıı=document.getElementById("ıkıı").value;
+var ucc=document.getElementById("ucc").value;
+var dortt=document.getElementById("dortt").value;
+var bess=document.getElementById("bess").value;
+var altıı=document.getElementById("altıı").value;    
+if(bır===bırr && ıkı===ıkıı &&uc===ucc&& dort===dortt && bes===bess  && altı===altıı ){
+    alert('tebrikler')
+}{
+    alert('tekrar deneyiniz')
+}
+
+
+
+        
+}
 
 
 
 
-    
+
+
+
+
+
+
+
+
+
+var oo=document.getElementById("ğx").value;
+
+
+var mm=document.getElementById("ğx").innerHTML=frst
+
 
 
 /* harf */
@@ -59,7 +148,7 @@ var f=alphabet[(Math.floor(Math.random()*alphabet.length))]
         var  ee= document.getElementById("ee").style.display="block"
         var  ff= document.getElementById("ff").style.display="block"
                
-            },9000);
+            },5000);
         }      
 
     /* cevap */
@@ -95,7 +184,4 @@ var f=alphabet[(Math.floor(Math.random()*alphabet.length))]
 
 
    }
-
-
-
 
