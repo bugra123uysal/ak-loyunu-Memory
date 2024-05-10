@@ -23,6 +23,9 @@ ul{
     border: solid 2px red;
   
     
+  
+   
+    
 
 }
 
@@ -96,3 +99,50 @@ input{
     float: left;
     resize: none;
 }
+
+/* senboller */
+/* texteare */
+#sa,#sb,#sc,#sd,#se,#sf{
+    position: relative;
+    top: 180px;
+    left: 490px;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    text-align: center;
+    border: solid 1px blue;
+    float: left;
+    resize: none;
+    
+}
+
+/* input */
+#z,#x,#v,#n,#m,#ö{
+
+
+    position: relative;
+    top: 250px;
+    left: 220px;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    text-align: center;
+    border: solid 1px blue;
+    float: left;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
